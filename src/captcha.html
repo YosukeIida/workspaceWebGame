@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<HTML lang=ja>
+<HEAD>
+    <META CHARSET=UTF-8>
+	<link rel="stylesheet" type="text/css" href="./css/captcha.css" />
+	<script>
+      function check(num){
+        const imageElement = document.getElementById('image'+num);
+        const checkElement = document.getElementById('check'+num);
+        if(checkElement.getAttribute("value")==1){
+			imageElement.setAttribute("style","filter: grayscale(100%);")
+			checkElement.setAttribute("value",0);
+		}else{
+			imageElement.setAttribute("style","")
+			checkElement.setAttribute("value",1);
+		}
+      }
+	</script>
+</HEAD>
+<BODY>
+	<div id="title">伝説の魔法の剣の画像を全て選んで下さい。</div>
+	<form method="post" action="../captchaServlet">
+	  <div id="imageCheck1" >
+	    <img id="image1" src="../img/captcha1.jpg" style="filter: grayscale(100%);" onclick="check(1)" />
+	    <input id="check1" type="hidden" name = "check1" value="0" />
+	  </div>
+	  <div id="imageCheck2">
+        <img id="image2" src="../img/captcha2.jpg" style="filter: grayscale(100%);" onclick="check(2)" />
+	    <input id="check2" type="hidden" name = "check2" value="0" />
+	  </div>
+	  <div id="imageCheck3">
+        <img id="image3" src="../img/captcha3.jpg" style="filter: grayscale(100%);" onclick="check(3)" />
+	    <input id="check3" type="hidden" name = "check3" value="0" />
+	  </div>
+	  <div id="imageCheck4">
+        <img id="image4" src="../img/captcha4.jpg" style="filter: grayscale(100%);" onclick="check(4)" />
+	    <input id="check4" type="hidden" name = "check4" value="0" />
+	  </div>
+	  <div id="imageCheck5">
+        <img id="image5" src="../img/captcha5.jpg" style="filter: grayscale(100%);" onclick="check(5)" />
+	    <input id="check5" type="hidden" name = "check5" value="0" />
+	  </div>
+	  <div id="imageCheck6">
+        <img id="image6" src="../img/captcha6.jpg" style="filter: grayscale(100%);" onclick="check(6)" />
+	    <input id="check6" type="hidden" name = "check6" value="0" />
+	  </div>
+	  <div id="imageCheck7">
+        <img id="image7" src="../img/captcha7.jpg" style="filter: grayscale(100%);" onclick="check(7)" />
+	    <input id="check7" type="hidden" name = "check7" value="0" />
+	  </div>
+	  <div id="imageCheck8">
+        <img id="image8" src="../img/captcha8.jpg" style="filter: grayscale(100%);" onclick="check(8)" />
+	    <input id="check8" type="hidden" name = "check8" value="0" />
+	  </div>
+	  <div id="imageCheck9">
+        <img id="image9" src="../img/captcha9.jpg" style="filter: grayscale(100%);" onclick="check(9)" />
+	    <input id="check9" type="hidden" name = "check9" value="0" />
+	  </div>
+      <input id="button" type = "submit" value ="送信" />
+	</form>
+</BODY>
+
+</HTML>

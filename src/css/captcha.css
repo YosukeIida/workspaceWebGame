@@ -1,0 +1,75 @@
+#title{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	color:blue;
+	font-size: large;
+}
+#image1{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+}
+#image2{
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	width: 100px;
+	height: 100px;
+}
+#image3{
+	position: absolute;
+	top: 50px;
+	left: 250px;
+	width: 100px;
+	height: 100px;
+}
+#image4{
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+}
+#image5{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	width: 100px;
+	height: 100px;
+}
+#image6{
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	width: 100px;
+	height: 100px;
+}
+#image7{
+	position: absolute;
+	top: 250px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+}
+#image8{
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	width: 100px;
+	height: 100px;
+}
+#image9{
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	width: 100px;
+	height: 100px;
+}
+#button{
+	position: absolute;
+	top:10px;
+	left:350px;
+}

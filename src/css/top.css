@@ -1,0 +1,45 @@
+.title {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: red;
+	font-size: 30;
+}
+
+.text {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	color: blue;
+	font-size: large;
+	width: 600px;
+}
+
+.image {
+	position: absolute;
+	top: 50px;
+	left: 700px;
+	height: 600px;
+	width: 600px;
+}
+
+.linkFirstStory {
+	position: absolute;
+	top: 600px;
+	left: 50px;
+	font-size: 30
+}
+
+.linkSecondStory {
+	position: absolute;
+	top: 600px;
+	left: 280px;
+	font-size: 30
+}
+
+.linkThirdStory {
+	position: absolute;
+	top: 600px;
+	left: 500px;
+	font-size: 30
+}

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/itemShop.css">
+	<title>territory.io</title>
+</head>
+
+<body>
+	<div>
+		<div class="title">TERRITORY.IO テリトリオ</div>
+		<div class="text">
+			ある日、エルリックと彼の仲間たちは森の中に現れた、非常に怪しげな武器屋に遭遇することとなりました。
+			深い森の中、川を渡った先にある小さな広場に、見たこともないような店が現れました。
+			その店は薄暗く、黒い幕で覆われており、窓からは微かな赤い光が漏れていました。看板には何も書かれておらず、ただひとつの大きなドアが不気味に開いていました。
+			エルリックは警戒心を抱きながら、仲間たちとともに店に入りました。
+			店主は微笑みを増して言いました。「お探しのものはこちらにございます。特別な武器や、あなた方の冒険にふさわしい品々をお見せしましょう。」
+		</div>
+		<div class="radioButtonItemShop">
+			<form method="post" action="../itemShopServlet">
+				<div class="radio">
+					<div>
+						<img >
+						<input type="radio" name="item" value="1" /> 魔法の剣 <br />
+
+					</div>
+					<input type="radio" name="item" value="2" /> 魔法の鎧 <br />
+				</div>
+				<input type="submit" value="送信" />
+			</form>
+		</div>
+
+	</div>
+	<div>
+		<img class="image" src="../img/itemshop.jpg">
+	</div>
+
+	</div>
+</body>
+
+</html>
